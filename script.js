@@ -1,0 +1,12 @@
+var ServicesNavMenu = document.getElementsByClassName ('services-nav-menu');
+console.log(ServicesNavMenu);
+var firstServise = document.getElementsByClassName('services-nav-menu')[0];
+console.log(firstServise);
+var ServicesIcons = document.getElementsByClassName ('service-icon');
+console.log(ServicesIcons);
+var AmountOfServises = document.getElementsByClassName ('service-icon').length;
+console.log(AmountOfServises);
+var SecondServiceName = document.getElementsByClassName ('service-icon') [1].textContent;
+console.log(SecondServiceName);
+var ServiceText = document.getElementsByClassName ('service-text')[0].innerText;
+console.log(ServiceText);
